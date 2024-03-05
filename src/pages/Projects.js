@@ -196,9 +196,7 @@ See this Live
                 <div className="project_videocontainer">
                   <div>
                     <img
-                      src="https://drive.google.com/file/d/1QaudCXwcwZdZAfA1trtCud_cNieq5njf/view?usp=sharing"
-                      alt="Sight Stream"
-
+                      src="https://i.ibb.co/74rBs6M/Dashboard-1-1.png" alt="Dashboard-1-1"
                     />
                   </div>
                 </div>
@@ -206,6 +204,7 @@ See this Live
                   <h2>FinTech Dashboard ---Data Analyst </h2>
 
                   <p>
+                  Crafted in Tableau, my FinTech dashboard unlocks a treasure trove of financial insights for data analysts. It consolidates key metrics into a unified, interactive platform, empowering deeper exploration through intuitive visualizations. Unearth hidden trends and patterns, guiding data-driven decisions to optimize financial performance. Real-time updates ensure you're always informed, while clear data presentations foster collaborative discussions, empowering your team for success.
 
                      </p>
                   <div>
@@ -221,7 +220,7 @@ See this Live
 
                   <div>
   <a
-                      href='https://sightstream.vercel.app/'
+                      href='https://drive.google.com/file/d/1QaudCXwcwZdZAfA1trtCud_cNieq5njf/view?usp=sharing'
                       target="_blank"
     rel="noreferrer"
   >
@@ -232,7 +231,7 @@ See this Live
     </button>
   </a>
   <a
-    href="https://github.com/shivkant098/sightstream"
+    href="https://github.com/golu098/FinTech-Dashboard"
     target="_blank"
     rel="noreferrer"
   >
