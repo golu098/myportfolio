@@ -190,6 +190,65 @@ See this Live
                 </div>
               </div>
             </div>
+            
+            <div className="projects_container" data-aos="fade-right">
+              <div className="project">
+                <div className="project_videocontainer">
+                  <div>
+                    <img
+                      src="https://drive.google.com/file/d/1QaudCXwcwZdZAfA1trtCud_cNieq5njf/view?usp=sharing"
+                      alt="Sight Stream"
+
+                    />
+                  </div>
+                </div>
+                <div className="project_information">
+                  <h2>FinTech Dashboard ---Data Analyst </h2>
+
+                  <p>
+
+                     </p>
+                  <div>
+                  <SiHtml5 />
+
+                    <DiCss3 />
+                    <IoLogoJavascript />
+                    <SiTailwindcss />
+                    <SiReactrouter/>
+                    <SiReact/>
+                    <SiApifox/>
+                  </div>
+
+                  <div>
+  <a
+                      href='https://sightstream.vercel.app/'
+                      target="_blank"
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <CgWebsite 
+ className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
+    href="https://github.com/shivkant098/sightstream"
+    target="_blank"
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        <  BsGithub
+ className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
+                </div>
+              </div>
+            </div>
+
 
             <div className="projects_container" data-aos="fade-right">
               <div className="project">
