@@ -34,6 +34,13 @@ import {
   SiNodedotjs,
   SiReact,
   SiApifox,
+  SiTableau,
+  SiMicrosoftexcel,
+  SiPython,
+  SiAzuredataexplorer,
+  SiGooglecolab,
+  SiSqlite,
+  SiMysql,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 // import { VscJson } from "react-icons/vsc";
@@ -190,7 +197,65 @@ See this Live
                 </div>
               </div>
             </div>
+
+                        
+            <div className="projects_container" data-aos="fade-right">
+              <div className="project">
+                <div className="project_videocontainer">
+                  <div>
+                    <img
+                      src="https://github.com/golu098/Modern-HR-Dashboard/assets/95178381/0c4cebdd-ec2d-4ddb-a731-1dae8eed5588"
+                      alt="Dashboard-1-1"
+                    />
+                  </div>
+                </div>
+                <div className="project_information">
+                  <h2>Human Resource Dashboard  </h2>
+
+                  <p>
+                  The Human Resource Dashboard provides a comprehensive overview of employee demographics and performance metrics within the organization. It visually represents data on gender distribution, marital status, and departmental distribution, enabling HR professionals to analyze workforce diversity and allocation. Additionally, the dashboard highlights monthly income for each employee, offering insights into salary distribution across different departments. Job satisfaction and performance ratings are also displayed, allowing HR managers to monitor employee engagement and productivity levels.             </p>
+                  <div>
+                      <SiTableau/>
+                      <SiMicrosoftexcel/>
+                      <SiMysql/>
+                      <SiPython/>
+                      <SiAzuredataexplorer/>
+                      <SiGooglecolab/>
             
+                      
+                  </div>
+
+                  <div>
+  <a
+href='https://github.com/golu098/Modern-HR-Dashboard/assets/95178381/0c4cebdd-ec2d-4ddb-a731-1dae8eed5588'
+                      target="_blank"
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <CgWebsite 
+ className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
+    href="https://github.com/golu098/Modern-HR-Dashboard"
+    target="_blank"
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        <  BsGithub
+ className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
+                </div>
+              </div>
+            </div>
+
+
             <div className="projects_container" data-aos="fade-right">
               <div className="project">
                 <div className="project_videocontainer">
@@ -201,21 +266,21 @@ See this Live
                   </div>
                 </div>
                 <div className="project_information">
-                  <h2>FinTech Dashboard ---Data Analyst </h2>
+                  <h2>FinTech Dashboard  </h2>
 
                   <p>
                   Crafted in Tableau, my FinTech dashboard unlocks a treasure trove of financial insights for data analysts. It consolidates key metrics into a unified, interactive platform, empowering deeper exploration through intuitive visualizations. Unearth hidden trends and patterns, guiding data-driven decisions to optimize financial performance. Real-time updates ensure you're always informed, while clear data presentations foster collaborative discussions, empowering your team for success.
 
                      </p>
                   <div>
-                  <SiHtml5 />
+                      <SiTableau/>
+                      <SiMicrosoftexcel/>
+                      <SiSqlite/>
+                      <SiPython/>
+                      <SiAzuredataexplorer/>
+                      <SiGooglecolab/>
 
-                    <DiCss3 />
-                    <IoLogoJavascript />
-                    <SiTailwindcss />
-                    <SiReactrouter/>
-                    <SiReact/>
-                    <SiApifox/>
+                      
                   </div>
 
                   <div>
@@ -248,6 +313,63 @@ See this Live
               </div>
             </div>
 
+            <div className="projects_container" data-aos="fade-right">
+              <div className="project">
+                <div className="project_videocontainer">
+                  <div>
+                    <img
+                      src="https://i.ibb.co/Ry5KCY5/image.png"
+                      alt="Dashboard-1-1"
+                    />
+                  </div>
+                </div>
+                <div className="project_information">
+                  <h2> GrabbGrove </h2>
+
+                  <p>
+                  GrabbGrove is an innovative e-commerce platform offering a wide range of clothing for women, men, and children. With seamless navigation, customers can browse through our diverse collections and easily add items to their cart. Our secure checkout process ensures a smooth payment experience, providing multiple payment options for convenience. Stay updated with the latest trends and promotions by subscribing to our newsletter. For personalized recommendations and order tracking, create an account with us and enjoy the benefits of hassle-free shopping. Whether it's fashion for the whole family or convenient shopping features, GrabbGrove has you covered.</p>
+                  <div>
+                  <SiHtml5 />
+
+<DiCss3 />
+<IoLogoJavascript />
+<SiTailwindcss />
+<SiReactrouter/>
+<SiReact/>
+<SiApifox/>
+
+                      
+                  </div>
+
+                  <div>
+  <a
+href='https://assignment-two-chi.vercel.app/'
+                      target="_blank"
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <CgWebsite 
+ className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
+    href="https://github.com/golu098/grabbGrove"
+    target="_blank"
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        <  BsGithub
+ className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
+                </div>
+              </div>
+            </div>
 
             <div className="projects_container" data-aos="fade-right">
               <div className="project">
