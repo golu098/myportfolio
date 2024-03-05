@@ -41,6 +41,7 @@ import {
   SiGooglecolab,
   SiSqlite,
   SiMysql,
+  SiGithub,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 // import { VscJson } from "react-icons/vsc";
@@ -70,7 +71,7 @@ const Projects = () => {
        
 <Toolstack/>
 <h1 className="project-heading" style={{ textAlign: 'center' }}>
-  Days <strong style={{ color: 'purple' }}>I Code </strong>
+  Days <strong style={{ color: 'purple' }}>I Code <SiGithub/> </strong>
 </h1>
 <Github/>
 
