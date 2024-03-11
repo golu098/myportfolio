@@ -371,7 +371,65 @@ See this Live
                 </div>
               </div>
             </div>
+            <div className="projects_container" data-aos="fade-right">
+              <div className="project">
+                <div className="project_videocontainer">
+                  <div>
+                    <img
+                      src="https://i.ibb.co/Ry5KCY5/image.png"
+                      alt="Dashboard-1-1"
+                    />
+                  </div>
+                </div>
+                <div className="project_information">
+                  <h2> Shoppy-Admin Dashboard </h2>
 
+                  <p>
+Developed a React-Tailwind dashboard featuring orders, employees, customers, and calendars, along with Kanban boards, rich text editors, and multiple chart types. Integrated user profile management, shopping cart, messaging, and notifications for enhanced functionality. This project demonstrates proficiency in React.js, Tailwind CSS, and data visualization techniques for comprehensive business solutions.</p>                  <div>
+                  <SiHtml5 />
+
+<DiCss3 />
+<IoLogoJavascript />
+<SiTailwindcss />
+<SiReactrouter/>
+<SiReact/>
+<SiApifox/>
+
+                      
+                  </div>
+
+                  <div>
+  <a
+href='https://shopy-dashboard.vercel.app/'
+                      target="_blank"
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <CgWebsite 
+ className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
+    href="https://github.com/golu098/Shopy_Dashboard"
+    target="_blank"
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        <  BsGithub
+ className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
+                </div>
+              </div>
+            </div>
+
+
+   
             <div className="projects_container" data-aos="fade-right">
               <div className="project">
                 <div className="project_videocontainer">
