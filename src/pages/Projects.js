@@ -376,7 +376,7 @@ See this Live
                 <div className="project_videocontainer">
                   <div>
                     <img
-                      src="https://i.ibb.co/Ry5KCY5/image.png"
+                      src="https://i.ibb.co/86Y723s/image.png"
                       alt="Dashboard-1-1"
                     />
                   </div>
@@ -393,7 +393,6 @@ Developed a React-Tailwind dashboard featuring orders, employees, customers, and
 <SiTailwindcss />
 <SiReactrouter/>
 <SiReact/>
-<SiApifox/>
 
                       
                   </div>
