@@ -34,76 +34,34 @@ import {
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
+  const techStacks = [
+    { icon: <CgCPlusPlus />, name: "C++" },
+    { icon: <DiHtml5 />, name: "HTML5" },
+    { icon: <DiCss3 />, name: "CSS3" },
+    { icon: <DiJavascript1 />, name: "JavaScript" },
+    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+    { icon: <DiBootstrap />, name: "Bootstrap" },
+    { icon: <DiReact />, name: "React" },
+    { icon: <SiReactrouter />, name: "React Router" },
+    { icon: <DiMongodb />, name: "MongoDB" },
+    { icon: <SiExpress />, name: "Express.js" },
+    { icon: <SiNodedotjs />, name: "Node.js" },
+    { icon: <DiGit />, name: "Git" },
+    { icon: <DiGithub />, name: "GitHub" },
+    { icon: <SiFirebase />, name: "Firebase" },
+    { icon: <SiPostgresql />, name: "PostgreSQL" },
+    { icon: <DiPython />, name: "Python" },
+    { icon: <DiJava />, name: "Java" },
+    { icon: <SiFigma />, name: "Figma" },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        < SiTailwindcss/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <SiReactrouter />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNodedotjs/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
-      </Col>
-      
+      {techStacks.map((tech, index) => (
+        <Col xs={4} md={2} key={index} className="tech-icons" title={tech.name}>
+          {tech.icon}
+        </Col>
+      ))}
     </Row>
   );
 }

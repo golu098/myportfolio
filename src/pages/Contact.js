@@ -70,7 +70,6 @@ const Contact = () => {
   </form>
   
   </div>
-<Footer/>
       </div>
     </div>
 

@@ -5,6 +5,9 @@ import Tilt from "react-parallax-tilt";
 // import Footer from 
 // import Footer from "./Footer";
 import Footer from './Footer';
+import About from './About';
+import Contact from './Contact';
+import Projects from './Projects';
 const Home = () => {
   return (
     <>
@@ -68,7 +71,13 @@ const Home = () => {
         </Container>
         </Container>
 
-        <div>        <Footer/>
+        <div>   
+        {/* <div className='exp'>
+      <h1>Hackathons Gallery</h1>
+    <About/>
+    </div>
+          <Projects/>
+          <Contact/> */}
 
           </div>
         </>

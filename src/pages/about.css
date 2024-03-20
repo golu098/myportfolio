@@ -4,6 +4,8 @@
 .about-intro {
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Arrange items in a row */
+    text-decoration: none;
+
     justify-content: space-between; /* Space items evenly along the main axis */
     align-items: center; /* Center items along the cross axis */
     padding: 20px; /* Add some padding for spacing */
@@ -18,6 +20,7 @@
   /* Style for the text */
   .about-text {
     /* text-size */
+    text-decoration: none;
 
     max-width: 50%; /* Limit the width of the text */
   }
@@ -36,11 +39,15 @@
   /* Responsive styles for smaller screens */
   @media screen and (max-width: 768px) {
     .about-intro {
+      text-decoration: none;
+
       flex-direction: column; /* Stack items vertically on smaller screens */
       align-items: flex-start; /* Align items to the start of the cross axis */
     }
   
     .about-text {
+      text-decoration: none;
+
       max-width: 100%; /* Allow text to take full width on smaller screens */
       margin-top: 20px; /* Add margin for spacing between image and text */
     }
@@ -48,7 +55,9 @@
 
   .text2 {
     /* font-style: u; */
-    text-decoration: underline;
+    text-decoration: none;
+
+    /* text-decoration: underline; */
     font-size: 400%; /* Set the font size to 500% of the parent element's font size */
     text-align: center; /* Center the text */
   }
@@ -233,7 +242,7 @@
 padding-left: 30rem;
 padding-bottom: 5rem;
             font-weight: 800rem;
-            text-decoration: underline;
+            text-decoration: none;
           
           }
   

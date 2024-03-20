@@ -5,6 +5,9 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import "./about.css";
 import Footer from './Footer';
+import Carousel from './Slide';
+import Carousel2 from './Slide';
+
 const workIcon = {
   icon: <FontAwesomeIcon icon={faBriefcase} />,
   iconStyle: { background: 'black', color: 'white' }
@@ -147,7 +150,16 @@ const About = () => {
       </div>
     </div>
     </div>
-    <Footer/>
+    <div className='exp'>
+      <h1>Hackathons Gallery</h1>
+    <Carousel/>
+    </div>
+    {/* <div className='exp'>
+      <h1>Certificate Gallery</h1>
+    <Carousel2/>
+    </div> */}
+
+
     </>
   )
 }
