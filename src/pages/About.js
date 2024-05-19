@@ -21,11 +21,30 @@ const starIcon = {
 const About = () => {
   const timeline = [
     {
+          icon: workIcon,
+      date: 'Aug 2023-Oct 2023',
+      title: 'SDE-Frontend',
+      subtitle: 'Revolute Tech',
+      desc:'My primary responsibilities included translating UI/UX design wireframes into actual code, ensuring a seamless and visually appealing user experience.
+ ',
+    },
+
+    {
+          icon: workIcon,
+      date: 'Jan 2023-Jul 2023',
+      title: 'React Developer',
+      subtitle: 'TheTechBridge',
+      dec:'During my internship, I worked on the project 'Version 2 for Educase,' where I played a crucial role in developing the web panel using REACTJS. I was responsible for creating and implementing a Custom Hook and managed to single-handedly complete the project. My focus on optimizing the application's performance ensured a seamless and efficient user experience.
+',
+
+    },
+    {
       icon: workIcon,
-      date: 'Mar 2022-Present',
-      title: 'Freelancer',
-      subtitle: 'Freelancing',
-      desc:'In my freelancing journey, I specialize in crafting innovative applications and conducting thorough data analysis. With a keen eye for detail and a passion for technology, I excel in developing user-friendly applications that cater to specific needs. ',
+      date: 'Jul 2022-Nov 2022',
+      title: 'Cyber Security Intern',
+      subtitle: 'Olcademy',
+      desc:'Spearheaded cybersecurity initiatives as an intern at Olcademy , focusing on securing the payment infrastructure and entire website against hacking threats and malware attacks.
+',
     },
     {
       icon: workIcon,
