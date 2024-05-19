@@ -30,7 +30,7 @@ const About = () => {
       date: 'Jan 2023-Jul 2023',
       title: 'React Developer',
       subtitle: 'TheTechBridge',
-      desc: "During my internship, I worked on the project 'Version 2 for Educase,' where I played a crucial role in developing the web panel using REACTJS. I was responsible for creating and implementing a Custom Hook and managed to single-handedly complete the project. My focus on optimizing the application's performance ensured a seamless and efficient user experience."
+      desc: 'During my internship, I worked on the project "Version 2 for Educase" where I played a crucial role in developing the web panel using REACTJS. I was responsible for creating and implementing a Custom Hook and managed to single-handedly complete the project. My focus on optimizing the applications performance ensured a seamless and efficient user experience.'
     },
     {
       icon: workIcon,
