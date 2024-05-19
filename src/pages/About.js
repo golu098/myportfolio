@@ -25,8 +25,7 @@ const About = () => {
       date: 'Aug 2023-Oct 2023',
       title: 'SDE-Frontend',
       subtitle: 'Revolute Tech',
-      desc:'My primary responsibilities included translating UI/UX design wireframes into actual code, ensuring a seamless and visually appealing user experience.
- ',
+      desc:'My primary responsibilities included translating UI/UX design wireframes into actual code, ensuring a seamless and visually appealing user experience.',
     },
 
     {
@@ -34,8 +33,7 @@ const About = () => {
       date: 'Jan 2023-Jul 2023',
       title: 'React Developer',
       subtitle: 'TheTechBridge',
-      dec:'During my internship, I worked on the project 'Version 2 for Educase,' where I played a crucial role in developing the web panel using REACTJS. I was responsible for creating and implementing a Custom Hook and managed to single-handedly complete the project. My focus on optimizing the application's performance ensured a seamless and efficient user experience.
-',
+      dec:'During my internship, I worked on the project "Version 2 for Educase" where I played a crucial role in developing the web panel using REACTJS. I was responsible for creating and implementing a Custom Hook and managed to single-handedly complete the project. My focus on optimizing the applications performance ensured a seamless and efficient user experience',
 
     },
     {
@@ -43,8 +41,7 @@ const About = () => {
       date: 'Jul 2022-Nov 2022',
       title: 'Cyber Security Intern',
       subtitle: 'Olcademy',
-      desc:'Spearheaded cybersecurity initiatives as an intern at Olcademy , focusing on securing the payment infrastructure and entire website against hacking threats and malware attacks.
-',
+      desc:'Spearheaded cybersecurity initiatives as an intern at Olcademy focusing on securing the payment infrastructure and entire website against hacking threats and malware attacks.',
     },
     {
       icon: workIcon,
