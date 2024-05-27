@@ -93,7 +93,7 @@ const About = () => {
                   <div className="timeline">
                     <a href="https://www.gpp7.org.in/" className="timeline-content">
                       <div className="timeline-icon"><FontAwesomeIcon icon={faTwitter} /></div>
-                      <h3 className="title">2018-21</h4>
+                      <h3 className="title">2018-21</h3>
                       <h4>Diploma in Computer Science & Engineering</h4>
                     </a>
                   </div>
