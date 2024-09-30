@@ -13,7 +13,7 @@ const Home = () => {
     <>
     <div>
       <p className='welcome-text'>
-        Welcome to Dev Wonderland!
+        Welcome to my Portfolio
       </p>
       <div className='welcome-gif'>
         <img src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmF4ZzE3dnJqcGtjYWNjM3FlNzVqeXdldGdpcGZqenhqYTVnMG91MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pUOtybrPsOXhKx5SKJ/giphy.gif' alt="img" />
